@@ -1,0 +1,43 @@
+Options -Indexes +FollowSymLinks
+AddDefaultCharset UTF-8
+php_flag display_errors ON
+php_value mbstring.internal_encoding UTF-8
+php_flag magic_quotes_gpc Off
+php_flag magic_quotes_runtime Off
+php_flag register_globals Off
+php_flag output_buffering Off
+
+### UPLOADING
+php_value memory_limit 128M
+php_value upload_max_filesize 50M
+php_value post_max_size 50M
+php_value max_input_time 3000
+
+### SPECIAL FOR SOME HOSTERS
+#RewriteBase /
+
+### BASE REWRITE MOD
+RewriteEngine    on
+
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/favicon.ico
+
+RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
+
+
+
+### DATE-ZONE CONFIG
+# http://www.webmastersucks.com/change-time-zone-with-htaccess/
+# php_value date.timezone "Europe/Moscow"
+php_value date.timezone "Europe/Kiev"
+
+### DOWNLOAD NEXT FILES
+AddType application/octet-stream .avi
+AddType application/octet-stream .mpg
+

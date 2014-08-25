@@ -1,0 +1,288 @@
+body {
+  overflow-y: scroll;
+  background-color: #808080;
+  font-family: calibri;
+  font-size: 10pt;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: #333333;
+}
+
+.header {
+  background-color: #c0c0c0;
+  color: #333333;
+  width: 730px;
+  height: 145px;
+  margin: 0 auto;
+  padding: 35px 0px 0px 70px;
+}
+
+.logo-text {
+  font-family: arial black;
+  font-weight: 100;
+  font-size: 9pt;
+  font-style: normal;
+}
+
+#tr {color: #ff0000;}
+
+#logo {float: left;}
+
+.lang-menu {
+  padding-left: 200px;
+}
+
+.lang-menu li {
+  display: inline;
+}
+
+.lang-menu li a {
+  text-decoration: none;
+  font-style: italic;
+  color: #333333;
+  padding-left: 25px;
+}
+
+.main-menu {
+  padding-top: 50px;
+  padding-left: 0px;
+}
+
+.main-menu li {
+  display: inline;
+  padding-left: 55px;
+}
+
+.footer {
+  background-color: #c0c0c0;
+  color: #333333;
+  width: 800px;
+  height: 65px;
+  margin: 0 auto;
+  padding-top: 25px;
+  clear: both;
+}
+
+.footer li {
+  display: inline;
+  padding-left: 40px;
+}
+
+.content {
+  color: #ffffff;
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.home-left {
+  float: left;
+  padding: 20px 10px 0 10px;
+}
+
+.home-right {
+  padding-left: 260px;
+  padding-top: 20px;
+  font-size: 14pt;
+}
+
+#ht {
+  background-color: #c0c0c0;
+  color: #ff0000;
+  padding: 5px 25px 5px 25px;
+  margin-left: 100px;
+}
+
+.video-left {
+  width: 200px;
+  padding-left: 70px;
+  float: left;
+  clear: both;
+}
+
+.video-right {
+  width: 475px;
+  float: right;
+  padding-left: 50px;
+  padding-bottom: 50px;
+
+}
+
+.video_wrap{
+   margin-top: 50px;
+ }
+ .self_video{
+   width: 400px;
+   height: 209px;
+ }
+.video-block {
+  margin-top: 50px;
+  border: solid 2px;
+  border-color: #969696;
+}
+
+#st {
+  font-size: 12pt;
+  padding: 50px 0 50px 500px;
+}
+
+#gal {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+#gal table {
+  margin: 0 auto;
+}
+
+#sal {
+  margin-top: 15px;
+  margin-left: 400px;
+  margin-bottom: 50px;
+}
+
+.logo-red {
+  font-family: arial black;
+  font-size: 8pt;
+  color: #ff0000;
+}
+
+.logo-white {
+  font-family: arial black;
+  font-size: 8pt;
+  color: #ffffff;
+}
+
+.logo-h {
+  font-size: 16pt;
+  font-style: italic;
+  font-weight: 100;
+  float: left;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.salons-table {
+  font-style: italic;
+  font-size: 12pt;
+  font-weight: 100;
+}
+
+.salons-table tr td a {color: #ffffff;}
+
+#gh {
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-bottom: 480px;
+  font-size: 12pt;
+  font-weight: 600;
+}
+
+.gh-left {
+  float: left;
+  padding-right: 40px;
+}
+
+.gh-left table tr td a {color: #ffffff}
+
+.gh-table1 {
+  font-style: italic;
+  }
+
+.gh-block {
+  height: 200px;
+  width: 300px;
+  float: left;
+  background-color: #c0c0c0;
+  margin-right: 35px;
+  margin-top: 25px;
+  color: #333333;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.gh-block table {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.gh-block table tr td {
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+.hoff-map {
+  padding-left: 280px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+#presse {
+  font-size: 10pt;
+  background-color: #c0c0c0;
+  color: #333333;
+  width: 565px;
+  margin-top: 40px;
+  margin-left: 500px;
+  margin-bottom: 50px;
+}
+
+#ihr {
+  width: 600px;
+  margin-left: 500px;
+  margin-top: 40px;
+}
+
+.ihr-h1 {
+  font-size: 20pt;
+  font-weight: 100;
+}
+
+.ihr-h2 {
+  font-size: 12pt;
+  font-weight: 400;
+}
+
+#ihr span {padding-left: 20px; clear: both;}
+
+#ihr img {float: left; clear: both;}
+
+.ihr-h3 {
+  font-size: 12pt;
+  font-style: italic;
+  color: #333333;
+}
+
+#jobs {
+  width: 320px;
+  font-size: 12pt;
+  font-weight: 500;
+  padding-left: 300px;
+}
+
+#kontakt {
+  font-size: 14pt;
+  font-weight: 400;
+  font-style: italic;
+  padding: 50px 0 50px 650px;
+}
+
+#kontakt a {color: #ffffff;}
+
+.href_admin{
+  display: block;
+  margin-left: 350px;
+  width: 250px;
+  height: 20px;
+}
+
+.gal_wrap{
+  float: left;
+  width: 590px;
+  margin-left: 105px;
+}
